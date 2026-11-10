@@ -350,6 +350,7 @@ nav {
 }
 
 
+
 /* =========================
    PROJECTS
 ========================= */
@@ -410,6 +411,7 @@ nav {
 
 .project-info {
     padding: 16px;
+    padding-bottom: 0;
 }
 
 .project-info h3 {
@@ -443,21 +445,39 @@ nav {
     font-weight: 500;
 }
 
+/* PROJECT FOOTER */
+
+.project-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: #1686AD;
+    width: calc(100% + 32px);
+    margin: 20px -16px 0;
+    padding: 12px 16px;
+
+    box-sizing: border-box;
+    border-radius: 0 0 16px 16px;
+}
+
 /* PROJECT LINK */
 
 .project-info a {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    color: #1686AD;
+
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
+
     transition: 0.2s ease;
 }
 
 .project-info a:hover {
-    color: #0D5878;
+    color: #D1F0FF;
 }
 
 
